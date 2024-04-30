@@ -1,0 +1,11 @@
+gcc -std=c11 concord1.c -o concord1
+cat tests/in01.txt | ./concord1 | diff tests/out01.txt -
+cat tests/in02.txt | ./concord1 | diff tests/out02.txt -
+cat tests/in03.txt | ./concord1 | diff tests/out03.txt -
+cat tests/in04.txt | ./concord1 | diff tests/out04.txt -
+cat tests/in05.txt | ./concord1 | diff tests/out05.txt -
+cat tests/in06.txt | ./concord1 | diff tests/out06.txt -
+cat tests/in07.txt | ./concord1 | diff tests/out07.txt -
+cat tests/in08.txt | ./concord1 | diff tests/out08.txt -
+cat tests/in09.txt | ./concord1 | diff tests/out09.txt -
+cat tests/in10.txt | ./concord1 | diff tests/out10.txt -
